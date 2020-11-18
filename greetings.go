@@ -1,6 +1,8 @@
 package go_test_module
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // Hello returns a greeting for the named person.
 func Hello(name string) string {
